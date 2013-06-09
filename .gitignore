@@ -1,0 +1,14 @@
+bin/
+.settings/
+.gitignore
+.classpath
+.project
+obj/
+*.sln
+*.suo
+Properties/
+bin/
+obj/
+app.config
+*.csproj
+*.csproj.user
